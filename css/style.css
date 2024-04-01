@@ -1,0 +1,23 @@
+body{
+    background-color: #888;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.row{
+    background-color: #fff;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.container{
+    /* background-color: red; */
+}
+
+.col-5{
+    /* background-color: green; */
+}
+.col-7{
+    background-color: red;
+}
