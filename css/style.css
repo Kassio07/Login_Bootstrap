@@ -7,17 +7,35 @@ body{
 
 .row{
     background-color: #fff;
-    height: 500px;
     border-radius: 25px;
 }
 
-.container{
-    /* background-color: red; */
+#form-container{
+    padding: 35px;
+}
+#form-container h2{
+    font-weight: 900;
 }
 
-.col-5{
-    /* background-color: green; */
+#form-container .form-control{
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
 }
-.col-7{
-    background-color: red;
+#form-container .form-control:focus{
+    box-shadow: none;
+}
+#form-container .form-floating label{
+    color: #ccc;
+}
+#form-container .form-floating > .form-control:focus~label{
+    color: #000;
+}
+
+
+@media(max-width: 768px){
+    button{
+        width: 100%;
+        margin-bottom: 45px;
+    }
 }

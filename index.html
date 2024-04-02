@@ -9,13 +9,27 @@
     <title>Login-Bootstrap</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row m-4 align-items-center">
-            <div class="col-5">
-                <img class="img-fluid" src="img/undraw_secure_login_pdn4.svg" alt="">
+    <div class="container col-11 col-md-9">
+        <div class="row align-items-center gx-5" id="form-container">
+            <div class="col-md-6 order-md-2">
+                <h2 class="mb-4">Faça o login para continuar</h2>
+                <form action="">
+                    <div class="form-floating mb-4">
+                        <input type="email" id="email" class="form-control" name="email" placeholder="Digite seu e-mail">
+                        <label for="email" class="form-label">Digite seu e-mail:</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <input type="password" id="password" name="password" class="form-control" placeholder="Digite sua senha">
+                        <label for="password" class="form-label">Digite sua senha:</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
             </div>
-            <div class="col-7">
-                
+            <div class="col-md-6 order-md-1">
+                <img class="img-fluid mb-4" src="img/undraw_secure_login_pdn4.svg" alt="">
+                <div class="text-center">
+                    <a href="cadastro.html">Ainda não tenho cadastro</a>
+                </div>
             </div>
         </div>
     </div>
